@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNS MOCHI</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        mochi: {
+                            pink: '#f8e7ff',
+                            dark: '#2D2D2D'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-[Poppins] bg-mochi-pink">
+    <!-- Navbar Start -->
+    <nav class="fixed w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-mochi-dark">
+                <img src="Logo Mochi.jpg" alt="FUNS MOCHI" class="h-8">
+            </a>
+      
+            <div class="space-x-8 text-mochi-dark">
+                <a href="#home" class="hover:text-pink-600 transition-colors">Home</a>
+                <a href="#about" class="hover:text-pink-600 transition-colors">About</a>
+                <a href="#menu" class="hover:text-pink-600 transition-colors">Menu</a>
+                <a href="#contact" class="hover:text-pink-600 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="min-h-screen relative flex items-center pt-20 bg-mochi-pink overflow-hidden" id="home">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <!-- Left Content -->
+                <div class="space-y-8" data-aos="fade-right">
+                    <div class="space-y-4">
+                        <h1 class="text-7xl font-bold text-mochi-dark"> FUNS MOCHI</h1>
+                        <h2 class="text-4xl font-medium text-gray-700">Makanan khas Jepang</h2>
+                    </div>
+                    <div class="space-y-3">
+                        <p class="text-2xl text-gray-600">Kalian penasaran dengan rasanya?</p>
+                        <p class="text-2xl text-gray-600">Beli sekarang!</p>
+                        <p class="text-xl text-pink-600 font-medium">Pembelian pertama akan mendapatkan diskon -10%</p>
+                    </div>
+                    <div class="flex space-x-4 pt-6">
+                        <a href="#menu" class="bg-pink-500 text-white px-8 py-4 rounded-full hover:bg-pink-600 transition-all duration-300 shadow-lg font-medium">Jelajahi Sekarang</a>
+                        <a href="#menu" class="bg-white text-pink-500 px-8 py-4 rounded-full hover:bg-gray-50 transition-all duration-300 shadow-lg border-2 border-pink-500 font-medium">Pesanan Anda</a>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="relative" data-aos="fade-left">
+                    <img src="image/mochiHomepage.jpg" alt="Mochi Collection" class="w-full max-w-2xl mx-auto rounded-3xl shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Facts Section Start -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-16" data-aos="fade-up">Fakta menarik tentang <span class="text-pink-600">mochi</span></h2>
+
+            <div class="grid md:grid-cols-2 gap-16 items-start">
+                <!-- Left Side Facts -->
+                <div class="space-y-10" data-aos="fade-right">
+                    <div class="bg-mochi-pink rounded-2xl p-10 shadow-lg hover:shadow-xl transition-shadow">
+                        <p class="text-gray-700 leading-relaxed">Mochi adalah makanan khas Jepang yang eksotis yang belum banyak diketahui orang! Ini adalah sejenis kue beras yang bisa manis, tawar, atau gurih.</p>
+                    </div>
+                    <div class="bg-mochi-pink rounded-2xl p-10 shadow-lg hover:shadow-xl transition-shadow">
+                        <p class="text-gray-700 leading-relaxed">Di Jepang kuno, mochi dianggap sebagai makanan suci karena dipercaya memiliki kehadiran ilahi. Mochi banyak dimakan sebagai cara untuk berdoa agar mendapat keberuntungan dan kesehatan.</p>
+                    </div>
+                    <div class="bg-mochi-pink rounded-2xl p-10 shadow-lg hover:shadow-xl transition-shadow">
+                        <p class="text-gray-700 leading-relaxed">Mochi terutama terbuat dari mochigome, yang merupakan beras ketan pendek. Terkadang, bahan-bahan lain seperti gula, air, dan tepung maizena juga ditambahkan untuk membuat mochi.</p>
+                    </div>
+                </div>
+
+                <!-- Right Side Facts -->
+                <div class="space-y-10" data-aos="fade-left">
+                    <div class="bg-mochi-pink rounded-2xl p-10 shadow-lg hover:shadow-xl transition-shadow">
+                        <p class="text-gray-700 leading-relaxed">Mochi memiliki kandungan lemak yang rendah dan kadar kolesterol yang sangat rendah. Mengandung vitamin C dan E, serta K Niacin, Asam Pantotenat dan Fosfor. Mochi juga menyediakan sumber kalsium dan asam folat besi.</p>
+                    </div>
+                    <div class="bg-mochi-pink rounded-2xl p-10 shadow-lg hover:shadow-xl transition-shadow">
+                        <p class="text-gray-700 leading-relaxed">Mochi banyak digunakan dalam berbagai jenis wagashi, minuman manis Jepang (juga cocok saat dipasangkan dengan teh matcha) dan banyak makanan gurih khas Jepang.</p>
+                    </div>
+                    <div class="bg-mochi-pink rounded-2xl p-10 shadow-lg hover:shadow-xl transition-shadow">
+                        <p class="text-gray-700 leading-relaxed">Mochi memang bebas gluten. Ini karena bahan utama atau kadang-kadang satu-satunya bahan dalam mochi adalah beras ketan yang lengket, yang bebas dari gandum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="py-20 bg-mochi-pink">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up"> PILIH MOCHI KESUKAAN <span class="text-pink-600">ANDA</span></h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Chocolate -->
+                <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up">
+                    <div class="bg-gray-100 rounded-2xl p-4 mb-4">
+                        <img src="image/chocolate.jpg" alt="Mochi rasa chocolate" class="w-full h-48 object-contain">
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-4">Chocolate</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-pink-600">Rp15.000</span>
+                        <button class="bg-purple-400 text-white px-6 py-2 rounded-full hover:bg-purple-500 transition-colors">Order</button>
+                    </div>
+                </div>
+
+                <!-- Manggo -->
+                <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-gray-100 rounded-2xl p-4 mb-4">
+                        <img src="image/mochiMangga.jpg" alt="Mochi rasa manggo" class="w-full h-48 object-contain">
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-4">Manggo</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-pink-600">Rp18.000</span>
+                        <button class="bg-purple-400 text-white px-6 py-2 rounded-full hover:bg-purple-500 transition-colors">Order</button>
+                    </div>
+                </div>
+
+                <!-- Strawberry -->
+                <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-gray-100 rounded-2xl p-4 mb-4">
+                        <img src="image/strawberry.jpg" alt="Mochi rasa strawberry" class="w-full h-48 object-contain">
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-4">Strawberry</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-pink-600">Rp12.000</span>
+                        <button class="bg-purple-400 text-white px-6 py-2 rounded-full hover:bg-purple-500 transition-colors">Order</button>
+                    </div>
+                </div>
+
+                <!-- Vanila -->
+                <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up">
+                    <div class="bg-gray-100 rounded-2xl p-4 mb-4">
+                        <img src="image/MochiVannila.jpg" alt="Mochi rasa vanila" class="w-full h-48 object-contain">
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-4">Vanila</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-pink-600">Rp10.000</span>
+                        <button class="bg-purple-400 text-white px-6 py-2 rounded-full hover:bg-purple-500 transition-colors">Order</button>
+                    </div>
+                </div>
+
+                <!-- Oreo -->
+                <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-gray-100 rounded-2xl p-4 mb-4">
+                        <img src="image/oreo.jpg" alt="Mochi rasa Oreo" class="w-full h-48 object-contain">
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-4">Oreo</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-pink-600">Rp12.000</span>
+                        <button class="bg-purple-400 text-white px-6 py-2 rounded-full hover:bg-purple-500 transition-colors">Order</button>
+                    </div>
+                </div>
+
+                <!-- Matcha -->
+                <div class="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-gray-100 rounded-2xl p-4 mb-4">
+                        <img src="image/matcha.jpg" alt="Mochi rasa green tea" class="w-full h-48 object-contain">
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-4">Green Tea</h3>
+                    <div class="flex justify-between items-center">
+                        <span class="text-2xl font-bold text-pink-600">Rp15.000</span>
+                        <button class="bg-purple-400 text-white px-6 py-2 rounded-full hover:bg-purple-500 transition-colors">Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up">Still have <span class="text-pink-600">questions?</span></h2>
+
+            <div class="max-w-md mx-auto bg-mochi-pink rounded-3xl p-8 shadow-lg" data-aos="fade-up">
+                <p class="text-center text-gray-700 mb-6">Complete the form and our manager will answer you in 10 min</p>
+                
+                <form class="space-y-6">
+                    <div>
+                        <input type="text" placeholder="Name" class="w-full px-4 py-3 rounded-full border border-purple-200 focus:outline-none focus:border-purple-400">
+                    </div>
+                    <div>
+                        <input type="tel" placeholder="Phone" class="w-full px-4 py-3 rounded-full border border-purple-200 focus:outline-none focus:border-purple-400">
+                    </div>
+                    <button type="submit" class="w-full bg-purple-400 text-white py-3 rounded-full hover:bg-purple-500 transition-colors">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-mochi-pink py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <img src="Logo Mochi.jpg" alt="FUNS MOCHI" class="h-8 mb-4 md:mb-0">
+                <div class="text-gray-600">© 2025 Mochi. All rights reserved</div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-600 hover:text-pink-600"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-pink-600"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-pink-600"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-pink-600"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
